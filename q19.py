@@ -1,9 +1,4 @@
-# 19. Check if a string input is uppercase, lowercase, or a mix.
-string = str(input("Enter a word = "))
-if string.islower():
-    print(f"{string} is in lower case")
-elif string.isupper():
-    print(f"{string} is in upper case")
-else:
-    print(f"{string} is in mix case")
-    
+# 19. Use a for loop to print the square of each number from 1 to 10.
+for i in range(1,11,1):
+    sqreNumber = i ** 2
+    print(f"Squre of {i} = {sqreNumber}")

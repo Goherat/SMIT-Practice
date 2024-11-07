@@ -1,7 +1,9 @@
-# 14. Check if a year input by the user is a century year.
-
-year = int(input("enter year = "))
-if year % 100 == 0:
-    print (f"{year} is century year")
-else:
-    print (f"{year} not a is century year")
+# 14. Write a program that breaks the loop when a certain condition is met.
+score = int(input("enter number = "))
+for i in range(score + 1):
+    if score == i:
+        print ("Thank you")
+        break
+    else:
+        print("the code is running")
+        

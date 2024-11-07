@@ -1,6 +1,8 @@
-# 18. Take a user’s score and determine if they pass or fail (pass if 50 or above).
-score = float(input("Enter your Score = "))
-if score >= 50:
-    print (f"congratulations ! your score is {score} you are passed ")
-else:
-    print (f" your score is {score} you are failed ")
+# 18. Use a loop to print numbers in reverse order within a given range.
+for i in range(10,1,-1):
+    print (f"reverse by for loop = {i}")
+i = 11 
+while i >=1:
+    i -= 1
+    print (f"reverse by while loop = {i}")
+    

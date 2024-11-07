@@ -1,13 +1,12 @@
-# 17. Write a program that asks for an integer and checks if it’s divisible by 2, 3, or both.
-num = int(input("enter a number = "))
-div_2 = 2
-div_3 = 3
-if num % 2 == 0 and num % 3 == 0:
-    print ( f" {num} is divisible by {div_2} , {div_3} or both")
-elif num % div_2 ==0:
-    print ( f" {num} is divisible by {div_2} only ")
-elif num % div_3 == 0:
-    print ( f" {num} is divisible by {div_3} only ")
-else:
-    print ( f" {num} is not divisible by 2, 3, or both")
+# 17. Write a program that continues to ask for a number until the correct number is guessed.
+correct_number = 12
+while True:
+    guess = int(input("enter your number = "))
+
+    if guess == correct_number:
+        print ("you Guessed a corrected number")
+        break
+    else:
+        print("wrong number Re-Enter number")
+        # guess = int(input("enter your number = "))
     
